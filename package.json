@@ -4,7 +4,7 @@
   "description": "Canonical dataset of NSIS releases — versions, download URLs and hashes — consumed by scoop-nsis, homebrew-makensis and friends.",
   "private": true,
   "author": "Jan T. Sott",
-  "license": "ISC",
+  "license": "CC0-1.0",
   "type": "module",
   "engines": {
     "node": ">=24"

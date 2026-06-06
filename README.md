@@ -14,4 +14,4 @@ The file conforms to [`schema/versions.schema.json`](./schema/versions.schema.js
 
 ## License
 
-ISC
+[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
