@@ -1,6 +1,6 @@
 {
   "$schema": "https://nsis-dev.github.io/data/versions.schema.json",
-  "generatedAt": "2026-04-30T21:10:21.173Z",
+  "generatedAt": "2026-10-01T18:28:59.176Z",
   "source": "sourceforge.net/projects/nsis",
   "versions": {
     "2.08": {
@@ -1974,12 +1974,41 @@
           }
         }
       }
+    },
+    "3.13": {
+      "version": "3.13",
+      "major": 3,
+      "channel": "stable",
+      "preRelease": null,
+      "releasedAt": "2026-09-27",
+      "artifacts": {
+        "zip": {
+          "url": "https://downloads.sourceforge.net/project/nsis/NSIS%203/3.13/nsis-3.13.zip",
+          "filename": "nsis-3.13.zip",
+          "size": 2363925,
+          "hashes": {
+            "sha1": "db14f8af2ea346b786c6ae19343f61aaf5e09b8e",
+            "sha256": "ba63dffc4410ee89193e1cb5a41989991bd77c61068da17e3156d136b7b0b3d8",
+            "sha512": "b0afbf08056639dfe2afe4411946dd85434476d812a31274d22604f8a6cdca833f110b3f249237492b3f52d012bee353528084606d742520e27df1add54d0136"
+          }
+        },
+        "sourceTarball": {
+          "url": "https://downloads.sourceforge.net/project/nsis/NSIS%203/3.13/nsis-3.13-src.tar.bz2",
+          "filename": "nsis-3.13-src.tar.bz2",
+          "size": 1819771,
+          "hashes": {
+            "sha1": "e0bd42648bea7bd933b32b9f1459cdb29ed41709",
+            "sha256": "a8ffe024602d46b6d766f9e1ce30c324ad2a24daeacd3efc2642d436a0c157ac",
+            "sha512": "700ed06f3c8539b2e94d9c231c38741591dfbb8b8e687e5198723e5a0b32c82325ca427fa2f33a45e3590c8ec0deef34e6b61bf8cd10e07a7b354376cb0d140b"
+          }
+        }
+      }
     }
   },
   "latest": {
     "stable": {
       "v2": "2.51",
-      "v3": "3.12"
+      "v3": "3.13"
     },
     "prerelease": {
       "v2": null,
