@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>nsis-data</title>
+    <title>@nsis/release-data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       :root { color-scheme: light dark; }
@@ -26,7 +26,7 @@
     </style>
   </head>
   <body>
-    <h1>nsis-data</h1>
+    <h1>@nsis/release-data</h1>
     <p class="lede">Canonical dataset of NSIS releases.</p>
 
     <h2>Endpoints</h2>
@@ -35,19 +35,22 @@
       <li><a href="versions.schema.json">versions.schema.json</a> — JSON Schema</li>
     </ul>
 
+<<<<<<< HEAD
     <h2>Usage</h2>
     <pre><code>const res = await fetch('https://nsis-dev.github.io/data/versions.json');
         const dataset = await res.json();
         const entry = dataset.versions['3.12'];</code></pre>
 
+=======
+>>>>>>> ac9923734529d463c70cbee2a6d7d6aaea69e8ef
     <h2>Source</h2>
     <p>
-      <a href="https://github.com/NSIS-Dev/data">github.com/NSIS-Dev/data</a>
+      <a href="https://github.com/NSIS-Dev/release-data">github.com/NSIS-Dev/release-data</a>
     </p>
 
     <footer>
       Updated daily via the
-      <a href="https://github.com/NSIS-Dev/data/actions/workflows/update.yml">update workflow</a>.
+      <a href="https://github.com/NSIS-Dev/release-data/actions/workflows/update.yml">update workflow</a>.
     </footer>
   </body>
 </html>

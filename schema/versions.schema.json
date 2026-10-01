@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://nsis-dev.github.io/data/versions.schema.json",
+  "$id": "https://nsis-dev.github.io/release-data/versions.schema.json",
   "title": "NSIS versions dataset",
   "description": "Canonical list of NSIS releases with download URLs and hashes for downstream package managers.",
   "type": "object",

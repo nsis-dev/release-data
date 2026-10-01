@@ -17,7 +17,7 @@ import { majorOf, preReleaseSuffix } from './version.ts';
 const ROOT = path.resolve(fileURLToPath(import.meta.url), '../..');
 const DATA_PATH = path.join(ROOT, 'data', 'versions.json');
 const SEED_PATH = path.join(ROOT, 'seed', 'versions.json');
-const SCHEMA_URL = 'https://nsis-dev.github.io/data/versions.schema.json';
+const SCHEMA_URL = 'https://nsis-dev.github.io/release-data/versions.schema.json';
 
 interface Candidate {
   version: string;
@@ -81,11 +81,11 @@ async function processCandidate(
       },
       sourceTarball: tarRes
         ? {
-            url: tarUrlStr,
-            filename: `nsis-${version}-src.tar.bz2`,
-            size: tarRes.body.length,
-            hashes: computeHashes(tarRes.body),
-          }
+          url: tarUrlStr,
+          filename: `nsis-${version}-src.tar.bz2`,
+          size: tarRes.body.length,
+          hashes: computeHashes(tarRes.body),
+        }
         : null,
     },
   };

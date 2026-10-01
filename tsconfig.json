@@ -11,6 +11,7 @@
     "exactOptionalPropertyTypes": true,
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
+    "types": ["node"],
     "esModuleInterop": true,
     "isolatedModules": true,
     "verbatimModuleSyntax": true,

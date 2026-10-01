@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "$schema": "https://nsis-dev.github.io/data/versions.schema.json",
   "generatedAt": "2026-10-01T18:28:59.176Z",
+=======
+  "$schema": "https://nsis-dev.github.io/release-data/versions.schema.json",
+  "generatedAt": "2026-04-30T21:10:21.173Z",
+>>>>>>> ac9923734529d463c70cbee2a6d7d6aaea69e8ef
   "source": "sourceforge.net/projects/nsis",
   "versions": {
     "2.08": {
