@@ -20,8 +20,4 @@ import versions from '@nsis/release-data/versions.json' with { type: 'json' };
 
 ## License
 
-<<<<<<< HEAD
 [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
-=======
-This work is licensed under the MIT License.
->>>>>>> ac9923734529d463c70cbee2a6d7d6aaea69e8ef
